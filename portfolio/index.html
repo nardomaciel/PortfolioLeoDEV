@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Maciel — Fullstack Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Outfit:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+
+<body>
+
+  <!-- Ícone reutilizável do GitHub via SVG symbol -->
+  <svg hidden aria-hidden="true">
+    <symbol id="icon-github" viewBox="0 0 24 24">
+      <path
+        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+    </symbol>
+  </svg>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-brand">leo.dev</div>
+    <ul class="nav-links">
+      <li><a href="#home">home</a></li>
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#formacao">formação</a></li>
+      <li><a href="#portfolio">projetos</a></li>
+      <li><a href="#contato">contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="deco deco-dot deco-1"></div>
+    <div class="deco deco-dot deco-2"></div>
+    <div class="deco deco-dot deco-3"></div>
+    <div class="deco deco-ring"></div>
+
+    <div class="hero-grid">
+      <div>
+        <div class="hero-tag">// fullstack developer</div>
+        <h1 class="hero-name">Leonardo<br><span class="orange">Maciel</span></h1>
+        <p class="hero-role">PHP · Java · Kotlin · Vue · Laravel · IoT</p>
+        <p class="hero-desc">Desenvolvedor Fullstack especializado em CME, CMMS e automação inteligente. Transformando
+          hardware e software em soluções reais — do microcontrolador ao painel web.</p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-fox">Ver Projetos →</a>
+          <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="photo-frame">
+          <div class="photo-ring"></div>
+          <div class="photo-hex">
+            <img src="assets/images/leonardo.jpg" alt="Leonardo Maciel" />
+          </div>
+          <div class="photo-badge">Fullstack Dev 🚀</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre">
+    <div class="wrapper">
+      <div class="section-label">// 01 — sobre mim</div>
+      <h2 class="section-title">Quem sou <span>eu?</span></h2>
+      <div class="sobre-inner">
+        <div class="sobre-text">
+          <p>Sou <strong>Leonardo Maciel</strong>, desenvolvedor Fullstack com mais de <strong>1 ano e meio de
+              experiência</strong>, baseado em Marechal Cândido Rondon — PR.</p>
+          <p>Minha especialidade é desenvolver <strong>soluções e melhorias para as áreas de CME e CMMS</strong> —
+            sistemas que fazem a diferença real em ambientes hospitalares e industriais.</p>
+          <p>Além do trabalho, tenho projetos próprios com <strong>IoT e Inteligência das Coisas</strong>: do
+            microcontrolador ao painel de controle web, da eletrônica ao banco de dados.</p>
+          <p>Nativo em <strong>Português</strong>, com inglês técnico em desenvolvimento para documentação e comunicação
+            internacional.</p>
+          <div class="lang-badges">
+            <span class="lb lb-php">PHP</span>
+            <span class="lb lb-java">Java</span>
+            <span class="lb lb-cpp">C++</span>
+            <span class="lb lb-kotlin">Kotlin</span>
+            <span class="lb lb-laravel">Laravel</span>
+            <span class="lb lb-vue">Vue.js</span>
+            <span class="lb lb-angular">Angular</span>
+            <span class="lb lb-mysql">MySQL</span>
+            <span class="lb lb-iot">IoT</span>
+            <span class="lb lb-jasper">Jasper Reports</span>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-num">1.5+</div>
+            <div class="stat-label">Anos fullstack</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num stat-num-teal">5+</div>
+            <div class="stat-label">Projetos entregues</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num stat-num-purple">10+</div>
+            <div class="stat-label">Tecnologias</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num stat-num-emoji">🏆</div>
+            <div class="stat-label">Prêmio Ficiências Jovem — Itaipu</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FORMAÇÃO -->
+  <section id="formacao">
+    <div class="wrapper">
+      <div class="section-label">// 02 — formação</div>
+      <h2 class="section-title">Minha <span>trajetória</span></h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date">Em andamento</div>
+          <div class="tl-body">
+            <div class="tl-title">Bacharelado em Ciência da Computação</div>
+            <div class="tl-org">Centro Universitário Internacional — UNINTER</div>
+            <div class="tl-desc">Graduação em andamento com base em algoritmos, estruturas de dados, desenvolvimento de
+              software e fundamentos de computação.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Concluído</div>
+          <div class="tl-body">
+            <div class="tl-title">Desenvolvimento de Sistemas Web</div>
+            <div class="tl-org">PTI — Parque Tecnológico Itaipu</div>
+            <div class="tl-desc">Formação prática em desenvolvimento web no ecossistema da Itaipu Binacional — ambiente
+              onde nasceu o premiado Sistema SIF.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Concluído</div>
+          <div class="tl-body">
+            <div class="tl-title">Técnico em Desenvolvimento de Sistemas</div>
+            <div class="tl-org">Ensino Médio Técnico Integrado</div>
+            <div class="tl-desc">Formação técnica com lógica de programação, OOP, banco de dados e desenvolvimento de
+              aplicações.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Contínuo</div>
+          <div class="tl-body">
+            <div class="tl-title">Hardware, Eletrônica &amp; IoT</div>
+            <div class="tl-org">Formação Complementar</div>
+            <div class="tl-desc">Capacitações em hardware e eletrônica com aplicação direta em projetos de automação —
+              microcontroladores, sensores e atuadores.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Em progresso</div>
+          <div class="tl-body">
+            <div class="tl-title">Inglês Técnico e Profissional</div>
+            <div class="tl-org">Idiomas</div>
+            <div class="tl-desc">Nativo em Português · Inglês técnico em desenvolvimento para documentação e comunicação
+              internacional.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PORTFÓLIO -->
+  <section id="portfolio">
+    <div class="wrapper">
+      <div class="section-label">// 03 — portfólio</div>
+      <h2 class="section-title">Projetos <span>desenvolvidos</span></h2>
+      <div class="projects-grid">
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-sif">
+            <img src="assets/svgs/sif.svg" alt="SIF" width="200" height="150" />
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-green">🌱 IoT · Automação</div>
+            <div class="proj-name">SIF — Sistema de Irrigação</div>
+            <div class="proj-desc">Sistema completo de irrigação automatizada com controle inteligente via sensores de
+              umidade e atuadores. Monitoramento em tempo real.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">C++</span><span class="tech-chip">IoT</span>
+              <span class="tech-chip">Sensores</span><span class="tech-chip">Hardware</span>
+            </div>
+            <div class="award-ribbon">🏆 Prêmio Ficiências Jovem · Itaipu / PTI</div>
+            <div class="proj-actions">
+              <a href="https://github.com/sistema-irrigacao-facilitado" target="_blank" class="btn-proj btn-proj-gh">
+                <svg width="14" height="14" fill="currentColor" aria-hidden="true">
+                  <use href="#icon-github" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-datacards">
+            <img src="assets/svgs/datacards.svg" alt="Datacards" width="200" height="150" />
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-purple">🔖 Gestão de Patrimônio</div>
+            <div class="proj-name">Gestor de Datacards</div>
+            <div class="proj-desc">Sistema para identificação e gestão de patrimônios via datacards. Catalogação,
+              rastreamento e auditoria de ativos em ambientes industriais e hospitalares.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">Laravel</span><span class="tech-chip">PHP</span>
+              <span class="tech-chip">MySQL</span><span class="tech-chip">Vue.js</span>
+            </div>
+            <div class="proj-actions">
+              <button class="btn-proj btn-proj-internal" data-modal="internal" data-modal-name="Gestor de Datacards">
+                🔒 Sistema Interno
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-pdf">
+            <img src="assets/svgs/pdf.svg" alt="Gestor de PDFs" width="200" height="150" />
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-red">📄 Relatórios</div>
+            <div class="proj-name">Gestor de PDFs</div>
+            <div class="proj-desc">Aplicação para geração e gestão de documentos PDF com integração ao Jasper Reports
+              para emissão de relatórios técnicos e gerenciais.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">Java</span><span class="tech-chip">Jasper Reports</span>
+              <span class="tech-chip">MySQL</span>
+            </div>
+            <div class="proj-actions">
+              <button class="btn-proj btn-proj-private" data-modal="private" data-modal-name="Gestor de PDFs">
+                🔐 Repositório Privado
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-dashboard">
+            <img src="assets/svgs/dashboard.svg" alt="Dashboards" width="200" height="150" />
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-blue">📊 Analytics</div>
+            <div class="proj-name">Dashboards Gerenciais</div>
+            <div class="proj-desc">Painéis interativos para visualização de KPIs nas áreas de CME e CMMS, com gráficos
+              em tempo real e exportação de relatórios.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">Angular</span><span class="tech-chip">Vue.js</span>
+              <span class="tech-chip">PHP</span><span class="tech-chip">MySQL</span>
+            </div>
+            <div class="proj-actions">
+              <button class="btn-proj btn-proj-internal" data-modal="internal" data-modal-name="Dashboards Gerenciais">
+                🔒 Sistema Interno
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-biblioteca">
+            <img src="assets/svgs/biblioteca.svg" alt="Biblioteca" width="200" height="150" />
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-blue">📚 Sistema Web</div>
+            <div class="proj-name">Biblioteca Online</div>
+            <div class="proj-desc">Sistema completo de gerenciamento de biblioteca para empresas — cadastro de livros,
+              gestão de usuários, controle de empréstimos e devoluções com histórico.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">PHP</span><span class="tech-chip">Laravel</span>
+              <span class="tech-chip">MySQL</span><span class="tech-chip">JavaScript</span>
+            </div>
+            <div class="proj-actions">
+              <a href="https://github.com/nardomaciel/projeto_teca" target="_blank" class="btn-proj btn-proj-gh">
+                <svg width="14" height="14" fill="currentColor" aria-hidden="true">
+                  <use href="#icon-github" />
+                </svg>
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-calculadora">
+            <img src="assets/svgs/calculadora.svg" alt="Calculadora" width="200" height="150" />
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-fox">🧮 Utilitário</div>
+            <div class="proj-name">Calculadora</div>
+            <div class="proj-desc">Calculadora web de uso geral com interface limpa, suporte a operações básicas e
+              avançadas, e histórico de cálculos realizados.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">JavaScript</span><span class="tech-chip">Vue.js</span>
+              <span class="tech-chip">HTML/CSS</span>
+            </div>
+            <div class="proj-actions">
+              <button class="btn-proj btn-proj-private" data-modal="private" data-modal-name="Calculadora">
+                🔐 Repositório Privado
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-frutocerto">
+            <div class="proj-emoji">🍎</div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-lime">⚡ Hackathon</div>
+            <div class="proj-name">FrutoCerto</div>
+            <div class="proj-desc">Projeto desenvolvido em competição de hackathon. Interface web construída sob pressão
+              de tempo e em equipe — demonstra capacidade de entrega rápida e trabalho colaborativo.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">HTML</span><span class="tech-chip">CSS</span>
+              <span class="tech-chip">JavaScript</span>
+            </div>
+            <div class="proj-actions">
+              <a href="https://github.com/nardomaciel/frutocerto" target="_blank" class="btn-proj btn-proj-gh">
+                <svg width="14" height="14" fill="currentColor" aria-hidden="true">
+                  <use href="#icon-github" />
+                </svg>
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-visual proj-visual-cyber">
+            <div class="proj-emoji">🛡️</div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tag proj-tag-violet">🔐 Cibersegurança</div>
+            <div class="proj-name">Simulação de Engenharia Social</div>
+            <div class="proj-desc">Apresentação interativa em HTML/CSS que simula um ataque de engenharia social com
+              fins educativos — demonstra como phishing e manipulação psicológica funcionam na prática.</div>
+            <div class="proj-tech">
+              <span class="tech-chip">HTML</span><span class="tech-chip">CSS</span>
+            </div>
+            <div class="proj-actions">
+              <a href="https://nardomaciel.github.io/apresentacaoCiberseguranca/trabalhoCiber2026.html"
+                target="_blank" class="btn-proj btn-proj-gh">
+                🌐 Ver Site
+              </a>
+              <a href="https://github.com/nardomaciel/apresentacaoCiberseguranca" target="_blank"
+                class="btn-proj btn-proj-gh">
+                <svg width="14" height="14" fill="currentColor" aria-hidden="true">
+                  <use href="#icon-github" />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="repos-link">
+        <a href="https://github.com/nardomaciel?tab=repositories" target="_blank" class="btn btn-ghost">
+          <svg width="16" height="16" fill="currentColor" aria-hidden="true">
+            <use href="#icon-github" />
+          </svg>
+          Ver todos os repositórios no GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="wrapper">
+      <div class="section-label">// 04 — contato</div>
+      <h2 class="section-title">Vamos <span>conversar?</span></h2>
+      <div class="contato-grid">
+        <div class="contact-info">
+          <h3>Disponível para projetos</h3>
+          <p>Aberto a oportunidades, colaborações em IoT, automação, CME/CMMS ou qualquer desafio fullstack
+            interessante. Manda uma mensagem!</p>
+          <div class="contact-links">
+            <a href="mailto:macielnardo4@gmail.com" class="c-link">
+              <div class="c-icon c-icon-fox">✉</div>
+              <div>
+                <div class="c-label">E-mail</div>
+                <div class="c-val">macielnardo4@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/leonardo-maciel-51373a28b" target="_blank" class="c-link">
+              <div class="c-icon c-icon-blue">in</div>
+              <div>
+                <div class="c-label">LinkedIn</div>
+                <div class="c-val">leonardo-maciel-51373a28b</div>
+              </div>
+            </a>
+            <a href="#" class="c-link">
+              <div class="c-icon c-icon-green">📍</div>
+              <div>
+                <div class="c-label">Localização</div>
+                <div class="c-val">Marechal Cândido Rondon — PR</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="cform" id="contact-form">
+          <div class="fgroup">
+            <label class="flabel">Nome</label>
+            <input type="text" class="finput" placeholder="Seu nome" required />
+          </div>
+          <div class="fgroup">
+            <label class="flabel">E-mail</label>
+            <input type="email" class="finput" placeholder="seu@email.com" required />
+          </div>
+          <div class="fgroup">
+            <label class="flabel">Assunto</label>
+            <input type="text" class="finput" placeholder="Do que se trata?" />
+          </div>
+          <div class="fgroup">
+            <label class="flabel">Mensagem</label>
+            <textarea class="ftextarea" placeholder="Sua mensagem..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-fox btn-full">Enviar →</button>
+          <div id="fmsg" class="fmsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal: Sistema Interno -->
+  <div id="internal-modal" class="modal modal-internal" role="dialog" aria-modal="true"
+    aria-labelledby="internal-modal-name">
+    <div class="modal-box">
+      <div class="modal-icon">🔒</div>
+      <div class="modal-type">Sistema Interno Corporativo</div>
+      <h3 class="modal-name" id="internal-modal-name"></h3>
+      <p class="modal-desc">
+        Este projeto foi desenvolvido para uso interno e o código-fonte não está disponível publicamente por questões de
+        confidencialidade contratual.<br><br>
+        Quer saber mais sobre como foi construído? Entre em contato!
+      </p>
+      <div class="modal-actions">
+        <a href="#contato" class="btn btn-fox modal-btn-cta" data-modal-close>Falar comigo →</a>
+        <button class="modal-btn-close" data-modal-close>Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Repositório Privado -->
+  <div id="private-modal" class="modal modal-private" role="dialog" aria-modal="true"
+    aria-labelledby="private-modal-name">
+    <div class="modal-box">
+      <div class="modal-icon">🔐</div>
+      <div class="modal-type">Repositório Privado</div>
+      <h3 class="modal-name" id="private-modal-name"></h3>
+      <p class="modal-desc">
+        Este repositório existe mas está configurado como privado no GitHub. O projeto pode ser apresentado pessoalmente
+        ou detalhado por contato direto.
+      </p>
+      <div class="modal-actions">
+        <a href="#contato" class="btn btn-ghost modal-btn-cta" data-modal-close>Solicitar acesso</a>
+        <button class="modal-btn-close" data-modal-close>Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>© 2025 <span>Leonardo Maciel</span> · Fullstack Dev · Marechal Cândido Rondon — PR</div>
+    <div class="footer-tagline">CME · CMMS · IoT · 🦊</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

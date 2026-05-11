@@ -1,0 +1,30 @@
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="12" y="12" width="176" height="126" fill="#0d1a2e" rx="4" stroke="#38bdf8" stroke-width="0.5" opacity=".5"/>
+  <rect x="12" y="12" width="176" height="16" fill="#0d2040" rx="4"/>
+  <circle cx="26" cy="20" r="3" fill="#f87171"/>
+  <circle cx="36" cy="20" r="3" fill="#f8b420"/>
+  <circle cx="46" cy="20" r="3" fill="#4ade80"/>
+  <rect x="20" y="35" width="50" height="28" fill="#0a1528" rx="3" stroke="#38bdf8" stroke-width="0.5"/>
+  <rect x="76" y="35" width="50" height="28" fill="#0a1528" rx="3" stroke="#a855f7" stroke-width="0.5"/>
+  <rect x="132" y="35" width="50" height="28" fill="#0a1528" rx="3" stroke="#4ade80" stroke-width="0.5"/>
+  <rect x="24" y="39" width="22" height="7" fill="#38bdf8" rx="1" opacity=".8"/>
+  <rect x="24" y="50" width="34" height="4" fill="#38bdf8" rx="1" opacity=".4"/>
+  <rect x="80" y="39" width="22" height="7" fill="#a855f7" rx="1" opacity=".8"/>
+  <rect x="80" y="50" width="30" height="4" fill="#a855f7" rx="1" opacity=".4"/>
+  <rect x="136" y="39" width="22" height="7" fill="#4ade80" rx="1" opacity=".8"/>
+  <rect x="136" y="50" width="26" height="4" fill="#4ade80" rx="1" opacity=".4"/>
+  <rect x="20" y="70" width="112" height="60" fill="#050f1f" rx="3" stroke="#1a2a40" stroke-width="0.5"/>
+  <rect x="28" y="118" width="14" height="8" fill="#38bdf8" rx="1" opacity=".8"/>
+  <rect x="46" y="108" width="14" height="18" fill="#38bdf8" rx="1" opacity=".8"/>
+  <rect x="64" y="98" width="14" height="28" fill="#38bdf8" rx="1" opacity=".8"/>
+  <rect x="82" y="103" width="14" height="23" fill="#38bdf8" rx="1" opacity=".8"/>
+  <rect x="100" y="95" width="14" height="31" fill="#38bdf8" rx="1" opacity=".8"/>
+  <rect x="118" y="106" width="14" height="20" fill="#38bdf8" rx="1" opacity=".8"/>
+  <rect x="137" y="70" width="46" height="60" fill="#050f1f" rx="3" stroke="#1a2a40" stroke-width="0.5"/>
+  <polyline points="142,122 152,110 162,100 172,106 178,92" fill="none" stroke="#a855f7" stroke-width="1.5"/>
+  <circle cx="142" cy="122" r="2.5" fill="#a855f7"/>
+  <circle cx="152" cy="110" r="2.5" fill="#a855f7"/>
+  <circle cx="162" cy="100" r="2.5" fill="#a855f7"/>
+  <circle cx="172" cy="106" r="2.5" fill="#a855f7"/>
+  <circle cx="178" cy="92" r="2.5" fill="#a855f7"/>
+</svg>
